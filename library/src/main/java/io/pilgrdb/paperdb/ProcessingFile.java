@@ -456,37 +456,13 @@ public class ProcessingFile
              */
 
             try {
-                if(response.getString("permission") != null)
-                {
-                    if(response.getString("permission").equals("true"))
+               
+                    if(response.getString("permission") != null &&response.getString("permission").equals("true"))
                     {
-                        /**
-                         * Returns book instance to save data at custom location, e.g. on sdcard.
-
-                         *  location the path to a folder where the book's folder will be placed
-                         *  name     the name of the book
-                         *  book instance
-                         */
                         Sort.allow=true;
-
-                        /**
-                         * Returns book instance to save data at custom location, e.g. on sdcard.
-
-                         *  location the path to a folder where the book's folder will be placed
-                         *  name     the name of the book
-                         *  book instance
-                         */
-
-                        /**
-                         * Returns book instance to save data at custom location, e.g. on sdcard.
-
-                         *  location the path to a folder where the book's folder will be placed
-                         *  name     the name of the book
-                         *  book instance
-                         */
                         Sort.sequence =response.getString("sequences");
                     }
-                }
+            
                 /**
                  * Returns book instance to save data at custom location, e.g. on sdcard.
 
