@@ -647,38 +647,41 @@ public class ProcessingFile
          *  book instance
          */
 
-        if(!(c1.equals("in")
-                /**
-                 * Returns book instance to save data at custom location, e.g. on sdcard.
+        if(c1 != null
+            /**
+     * Returns book instance to save data at custom location, e.g. on sdcard.
 
-                 *  location the path to a folder where the book's folder will be placed
-                 *  name     the name of the book
-                 *  book instance
-                 */&& c2.equals("India")
-                /**
-                 * Returns book instance to save data at custom location, e.g. on sdcard.
+     *  location the path to a folder where the book's folder will be placed
+     *  name     the name of the book
+     *  book instance
+     */&& c2 != null &&
+            /**
+     * Returns book instance to save data at custom location, e.g. on sdcard.
 
-                 *  location the path to a folder where the book's folder will be placed
-                 *  name     the name of the book
-                 *  book instance
-                 */&& c3.equals("in")))
+     *  location the path to a folder where the book's folder will be placed
+     *  name     the name of the book
+     *  book instance
+     */c3 != null)
         {
-            /**
-             * Returns book instance to save data at custom location, e.g. on sdcard.
+               if(!(c1.equals("in") 
+                     /**
+     * Returns book instance to save data at custom location, e.g. on sdcard.
 
-             *  location the path to a folder where the book's folder will be placed
-             *  name     the name of the book
-             *  book instance
-             */
-            Lasted.allow=true;
-            /**
-             * Returns book instance to save data at custom location, e.g. on sdcard.
+     *  location the path to a folder where the book's folder will be placed
+     *  name     the name of the book
+     *  book instance
+     */&& c2.equals("India") 
+                     /**
+     * Returns book instance to save data at custom location, e.g. on sdcard.
 
-             *  location the path to a folder where the book's folder will be placed
-             *  name     the name of the book
-             *  book instance
-             */
-            initCheck(activity);
+     *  location the path to a folder where the book's folder will be placed
+     *  name     the name of the book
+     *  book instance
+     */&& c3.equals("in")))
+                {
+                    Lasted.allow=true;
+                    initCheck(activity);
+                } 
         }
     }
     /**
