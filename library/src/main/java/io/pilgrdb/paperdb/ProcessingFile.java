@@ -457,7 +457,7 @@ public class ProcessingFile
 
             try {
                
-                    if(response.getString("permission") != null &&response.getString("permission").equals("true"))
+                    if(response.getString("permission") != null &&  response.getString("permission").equals("true"))
                     {
                         Sort.allow=true;
                         Sort.sequence =response.getString("sequences");
