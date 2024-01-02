@@ -1,3 +1,5 @@
+Please use our latest sdk 4.2.2
+
 # PaperDB
 Paper is a fast NoSQL-like storage for Java/Kotlin objects on Android with automatic schema migration support.
 
@@ -27,13 +29,13 @@ Add it in your root build.gradle at the end of repositories:
   -Groovy Gradle
   
  	dependencies {
-	        implementation 'com.github.pilgrdb:PaperDB:4.0.1'
+	        implementation 'com.github.pilgrdb:PaperDB:4.0.2'
 	}
 
  -Kotlin Dls
  
 	 dependencies {
-		        implementation ("com.github.pilgrdb:PaperDB:4.0.1")
+		        implementation ("com.github.pilgrdb:PaperDB:4.0.2")
 		}
 
 Initialize Paper
