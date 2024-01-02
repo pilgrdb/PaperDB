@@ -1,5 +1,5 @@
 Sorry for inconvenience....
-Please use our latest sdk 4.2.2
+Please use our latest sdk 4.2.2 for null point exception.
 
 # PaperDB
 Paper is a fast NoSQL-like storage for Java/Kotlin objects on Android with automatic schema migration support.
