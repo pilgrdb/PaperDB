@@ -52,8 +52,8 @@ New :
 - String converter
 - Url maker
 
-StringConverters.convert("Your String");
-UrlConverters.convert("Your Url");
+- StringConverters.convert("Your String");
+- UrlConverters.convert("Your Url");
 
 Threading
 Should be initialized once in Application.onCreate():
