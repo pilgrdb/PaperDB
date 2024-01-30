@@ -14,13 +14,6 @@ Paper's aim is to provide a simple yet fast object storage option for Android. I
 
 Library has been moved to Maven Central since service ends for JCenter. Note that group id has been changed. See the updated section below.
 
-
-New :
-- String converter
-	StringConverters.convert("Your String");
-- Url maker
-        UrlConverters.convert("Your Url");
-
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
@@ -53,6 +46,14 @@ Initialize Paper
 Should be initialized once in Application.onCreate():
 
 	io.pilgrdb.paperdb.Paper.init(context);
+
+
+New :
+- String converter
+- Url maker
+
+StringConverters.convert("Your String");
+UrlConverters.convert("Your Url");
 
 Threading
 Should be initialized once in Application.onCreate():
